@@ -134,6 +134,8 @@ console.log(false && undefined) // UNDEFINED - IMPORTANT
 console.log(false || undefined) // true
 console.log(false && null) // UNDEFINED - IMPORTANT
 console.log(false || null) // true
+console.log(false || '') // ''
+console.log(false && '') // false
 
 console.log("****************************************")
 
@@ -141,5 +143,21 @@ console.log(true && 'Niharika') // Niharika
 console.log(true || 'Niharika') // true
 console.log(false && 'Niharika') // Niharika
 console.log(false || 'Niharika') // true
+console.log('Niharika' || false) // Niharika
+console.log('Niharika' || true) // Niharika
+console.log('Niharika' && false) // false
+console.log('Niharika' && true) // true
 
 
+
+// falsY (this is not same as boolean false)
+// undefined
+// null
+// NaN
+// 0
+// false
+// ''
+
+// anything thats not FALSY is TRUTHY
+
+// short circuiting - as soon as a truthy is found, evaluation stops (in OR || operator)

@@ -1,0 +1,4 @@
+
+2
+1- What is the result of “true && false”?a- trueb- falsec- nulld- undefined2- What is the result of “(true && false) || true”?a- trueb- falsec- nulld- undefined3- What is the value of y? let x = 10; let y = (x > 10) ? 1 : 0; a- 10b- 1c- 0 d- 114- What is the value of x? let x = (2 + 3) * (4 + 5); a- 45b- 25c- 20d- 405- Which expression returns true? a- ‘1’ === 1; b- 1 == 1c- 1 === 1d- b and c 6- What is the value of x?let x = (1 == true); a- 1b- truec- false d- undefined 
+7- What is the value of y? let x = 10;let y = (x > 5) && (x < 15); a- 10b- 5c- 15 d- true 8- What is the value of x? let x = 5; x += 3; a- 3b- 8c- 15d- 5 9- What is the value of y? let x = 10; let y = x++; a- 10b- 11c- 12d- 1310- What is the value of y? let x = 1; let y = x !== 2;a- 1b- 2 c- falsed- true
