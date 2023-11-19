@@ -1,3 +1,5 @@
+//random quick examples
+
 let firstName = 'Hank'; //modern best practice is to declare each variables in different lines
 let lastName = 'Verma';
 
